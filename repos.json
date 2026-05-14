@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Dcs Root Mod Folder Repo",
+    "url": "https://your-server.com/repo.json",
+    "id": "dcs-root-mod-folder",
+    "category": "official",
+    "mods_count": 10,
+    "size": 5520129295,
+    "version": "1.0",
+    "last_update": "2026-05-15",
+    "changelog_link": "",
+    "tags": ["DCS"],
+    "region": "EU",
+    "ping": null,
+    "description": "Official DCS World mod repository with root folder structure"
+  }
+]
