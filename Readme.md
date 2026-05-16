@@ -28,6 +28,8 @@ The `repos.json` file contains a list of server repositories that users can brow
 | `region` | string | Server region (e.g., `"EU"`, `"US"`, `"Asia"`) |
 | `ping` | number | Average ping in milliseconds |
 | `description` | string | Brief description of the repository |
+| `website_link` | string | URL to the repository's website |
+| `discord_link` | string | Discord invite URL for the repository |
 
 ## Example repos.json
 
@@ -46,7 +48,9 @@ The `repos.json` file contains a list of server repositories that users can brow
     "tags": ["DCS"],
     "region": "EU",
     "ping": 45,
-    "description": "Official DCS World mod repository with root folder structure"
+    "description": "Official DCS World mod repository with root folder structure",
+    "website_link": "https://your-server.com",
+    "discord_link": "https://discord.gg/your-invite"
   },
   {
     "name": "Community Mods",
@@ -61,7 +65,9 @@ The `repos.json` file contains a list of server repositories that users can brow
     "tags": ["Community", "Experimental"],
     "region": "US",
     "ping": 120,
-    "description": "Community-maintained repository with experimental mods"
+    "description": "Community-maintained repository with experimental mods",
+    "website_link": "https://community-server.com",
+    "discord_link": "https://discord.gg/community-invite"
   }
 ]
 ```
@@ -78,6 +84,30 @@ The `repos.json` file contains a list of server repositories that users can brow
 
 - **Official**: Repositories maintained by the BMM team or official partners
 - **Partner**: Repositories maintained by trusted community members
+
+## Adding Website and Discord Links
+
+To add links to your website and Discord server in your repository:
+
+### Website Link
+
+Add the `website_link` field with your website URL:
+```json
+{
+  "website_link": "https://your-server.com"
+}
+```
+
+### Discord Link
+
+Add the `discord_link` field with your Discord server invite URL:
+```json
+{
+  "discord_link": "https://discord.gg/your-invite-code"
+}
+```
+
+These links will be displayed in the BMM repository browser, allowing users to easily visit your website or join your Discord server for help or additional information.
 
 ## Size Calculation
 
