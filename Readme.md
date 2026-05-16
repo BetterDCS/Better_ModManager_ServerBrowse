@@ -25,7 +25,7 @@ The `repos.json` file contains a list of server repositories that users can brow
 |-------|------|-------------|
 | `changelog_link` | string | URL to the changelog markdown file |
 | `tags` | array | Array of tags (e.g., `["DCS", "Stable"]`) |
-| `region` | string | Server region (e.g., `"EU"`, `"US"`, `"Asia"`) |
+| `region` | string | Server region (e.g., `"EU"`, `"US"`, `"SA"`, `"Asia"`, `"Africa"`, `"Oceania"`) |
 | `ping` | number | Average ping in milliseconds |
 | `description` | string | Brief description of the repository |
 | `website_link` | string | URL to the repository's website |
@@ -79,6 +79,21 @@ The `repos.json` file contains a list of server repositories that users can brow
 3. **Get your repo.json URL** (e.g., `https://your-server.com/repo.json`)
 4. **Create an entry** in the `repos.json` file with your repository details
 5. **Submit a pull request** to the BetterDCS/Better_ModManager_ServerBrowse repository
+
+## Region Guidelines
+
+Accepted values for the `region` field are:
+
+| Value | Region |
+|-------|--------|
+| `EU` | Europe |
+| `US` | North America |
+| `SA` | South America |
+| `Asia` | Asia |
+| `Africa` | Africa |
+| `Oceania` | Oceania |
+
+Use these exact codes to allow users to filter repositories by region in the browser.
 
 ## Category Guidelines
 
