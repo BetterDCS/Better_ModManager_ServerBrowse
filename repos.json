@@ -12,6 +12,8 @@
     "tags": ["DCS"],
     "region": "EU",
     "ping": null,
-    "description": "Official DCS World mod repository with root folder structure"
+    "description": "Official DCS World mod repository with root folder structure",
+    "website_link": "https://freeproject089.github.io/BMM_Web/",
+    "discord_link": "https://discord.gg/CTaaEF9R75"
   }
 ]
