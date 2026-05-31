@@ -1,9 +1,9 @@
 [
   {
     "name": "Exemple Official Repo",
-    "url": "UrlComingSoom",
+    "url": "http://192.168.56.1:8000/",
     "id": "dcs-root-mod-folder",
-    "signature": "",
+    "signature": "ae0c4ae76fdee03b390236fb3b9620a3d9b7d0d131aaef70e3d25e816a1b4bc95d399ad8cad2dc451a7d9a4f6fe711c796fa0020c0052d15f5bec86c725c590c",
     "category": "official",
     "mods_count": 10,
     "size": 5520129295,
